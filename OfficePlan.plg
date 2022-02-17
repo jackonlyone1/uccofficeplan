@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: OfficePlan - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\suppo\AppData\Local\Temp\RSPDD2F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/OfficePlan.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\UCanCode产品_2013\英文\Advance Samples\OfficePlan\ChildFrm.cpp"
+"D:\UCanCode产品_2013\英文\Advance Samples\OfficePlan\ExtTabModel.cpp"
+"D:\UCanCode产品_2013\英文\Advance Samples\OfficePlan\ExtTabModelManager.cpp"
+"D:\UCanCode产品_2013\英文\Advance Samples\OfficePlan\MainFrm.cpp"
+"D:\UCanCode产品_2013\英文\Advance Samples\OfficePlan\MyToolBoxBar.cpp"
+"D:\UCanCode产品_2013\英文\Advance Samples\OfficePlan\OfficePlan.cpp"
+"D:\UCanCode产品_2013\英文\Advance Samples\OfficePlan\OfficePlanDoc.cpp"
+"D:\UCanCode产品_2013\英文\Advance Samples\OfficePlan\OfficePlanView.cpp"
+"D:\UCanCode产品_2013\英文\Advance Samples\ExtSource\FOPGDIPlusHelper.cpp"
+"D:\UCanCode产品_2013\英文\Advance Samples\ExtSource\FOPGDIPlusProxy.cpp"
+]
+Creating command line "cl.exe @C:\Users\suppo\AppData\Local\Temp\RSPDD2F.tmp" 
+Creating temporary file "C:\Users\suppo\AppData\Local\Temp\RSPDD30.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/OfficePlan.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\UCanCode产品_2013\英文\Advance Samples\OfficePlan\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\suppo\AppData\Local\Temp\RSPDD30.tmp" 
+Creating temporary file "C:\Users\suppo\AppData\Local\Temp\RSPDD31.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/OfficePlanD.pdb" /debug /machine:I386 /out:"..\Bin/OfficePlanD.exe" /pdbtype:sept 
+".\Debug\ChildFrm.obj"
+".\Debug\ExtTabModel.obj"
+".\Debug\ExtTabModelManager.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MyToolBoxBar.obj"
+".\Debug\OfficePlan.obj"
+".\Debug\OfficePlanDoc.obj"
+".\Debug\OfficePlanView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\OfficePlan.res"
+".\Debug\FOPGDIPlusHelper.obj"
+".\Debug\FOPGDIPlusProxy.obj"
+]
+Creating command line "link.exe @C:\Users\suppo\AppData\Local\Temp\RSPDD31.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Link to E-XD++ Visualization Enterprise Suite V26.01 Build 05/05/2018
+Automatically linking with E-XDENTD2601.dll (Debug,MFC DLL)
+Compiling...
+ChildFrm.cpp
+ExtTabModel.cpp
+ExtTabModelManager.cpp
+MainFrm.cpp
+MyToolBoxBar.cpp
+OfficePlan.cpp
+OfficePlanDoc.cpp
+OfficePlanView.cpp
+FOPGDIPlusHelper.cpp
+FOPGDIPlusProxy.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+OfficePlanD.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
